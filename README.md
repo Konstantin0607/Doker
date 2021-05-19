@@ -49,7 +49,7 @@ New NGINX instance inside Docker
 Собираем образ 
 
 ```
-$ docker build vdovkin/fpm --no-cache .
+$ docker build smirnov/fpm --no-cache .
 
 ```
 

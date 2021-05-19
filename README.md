@@ -17,7 +17,7 @@ docker build -t smirnov/nginx --no-cache .
 Запускаем контейнер и проверяем:
 
 ```
-docker run -d -p 8080:8080 --name nginx vdovkin/nginx
+docker run -d -p 8080:8080 --name nginx smirnov/nginx
 ```
 
 ```

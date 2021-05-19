@@ -7,7 +7,7 @@
 Создадим [Dockerfile](docker/nginx/Dockerfile) для nginx, запустим сборку образа:
 
 ```
-docker build -t vdovkin/nginx --no-cache .
+docker build -t smirnov/nginx --no-cache .
 ```
 
 В файлах [nginx.conf](docker/nginx/nginx.conf) и [default.conf](docker/nginx/default.conf) находится минимально необходимый конфиг для старта nginx.
@@ -25,10 +25,10 @@ $ curl -I http://localhost:8080
 
 HTTP/1.1 200 OK
 Server: nginx/1.14.2
-Date: Tue, 18 May 2021 10:48:39 GMT
+Date: Tue, 18 May 2021 10:25:39 GMT
 Content-Type: text/html
 Content-Length: 33
-Last-Modified: Tue, 18 May 2021 10:48:39 GMT
+Last-Modified: Tue, 18 May 2021 10:25:39 GMT
 Connection: keep-alive
 ETag: "5c3dac77-21"
 Accept-Ranges: bytes
